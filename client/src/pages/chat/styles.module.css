@@ -1,0 +1,97 @@
+.chatContainer {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+}
+
+.containerUserList {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.roomWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.roomAndUsersColumn {
+    border-right: 1px solid #dfdfdf;
+    padding-right: 30px;
+}
+
+.roomTitle {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.usersTitle {
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+.usersList {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 60px;
+    color: black;
+
+}
+
+.usersList li {
+    margin-bottom: 12px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Messages */
+.messagesColumn {
+    height: 85vh;
+    overflow: auto;
+    padding: 10px 20px;
+}
+
+.message {
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 12px;
+}
+
+.msgMeta {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.msgText {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+
+/* Message input and button */
+.sendMessageContainer {
+    padding: 0px 40px 0px 20px;
+}
+
+.messageInput {
+    padding: 15px 10px;
+    margin: 0px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-size: 0.9rem;
+    font-family: 'Oswald', sans-serif;
+}
